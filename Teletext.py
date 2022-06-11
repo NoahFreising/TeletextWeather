@@ -152,5 +152,5 @@ img2.save(conf.slide2output)
 
 # create and save gif
 gifim = [img]
-gifim[0].save(conf.gifpath, format='GIF', append_images=[img2], save_all=True, duration=10000, loop=0)
+gifim[0].save(conf.gifoutput, format='GIF', append_images=[img2], save_all=True, duration=10000, loop=0)
 
